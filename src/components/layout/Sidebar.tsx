@@ -216,7 +216,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ currentTab, onSelectTab, isOpe
           id: 'deployment',
           label: 'cPanel & Source Code',
           icon: Server,
-          badge: 'PHP 8.2',
+          badge: 'PHP 8.0',
           badgeColor: 'bg-indigo-600 text-white',
           requiredModule: 'deployment'
         }

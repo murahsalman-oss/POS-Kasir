@@ -1,7 +1,7 @@
 -- =====================================================================
 -- DATABASE: pos_minimarket
 -- SISTEM POINT OF SALE & MANAJEMEN INVENTORI MINIMARKET BERBASIS WEB
--- Target Platform: PHP 8.2+ & MySQL 8.0 / MariaDB 10.4+ (cPanel / Shared Hosting)
+-- Target Platform: PHP 8.0+ & MySQL 8.0 / MariaDB 10.4+ (cPanel / Shared Hosting)
 -- =====================================================================
 
 SET FOREIGN_KEY_CHECKS = 0;

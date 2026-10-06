@@ -1,6 +1,6 @@
 # POS MINIMARKET PRO - SISTEM KASIR & MANAJEMEN TOKO WEB
 
-Aplikasi Point of Sale (POS) Minimarket berbasis web lengkap, modern, responsif, aman, dan siap dipasang pada shared hosting / cPanel (PHP 8.2+ & MySQL / MariaDB).
+Aplikasi Point of Sale (POS) Minimarket berbasis web lengkap, modern, responsif, aman, dan siap dipasang pada shared hosting / cPanel (PHP 8.0+ & MySQL / MariaDB).
 
 ---
 
@@ -44,7 +44,7 @@ Aplikasi Point of Sale (POS) Minimarket berbasis web lengkap, modern, responsif,
 ## 2. KEBUTUHAN SISTEM SERVER (HOSTING CPANEL)
 
 * **Web Server**: Apache dengan `mod_rewrite` aktif atau Nginx
-* **PHP**: Versi 8.2 atau lebih baru
+* **PHP**: Versi 8.0 atau lebih baru
 * **Ekstensi PHP**:
   * `pdo_mysql`
   * `json`
@@ -98,9 +98,9 @@ Ikuti 10 langkah berikut untuk memasang aplikasi ke hosting cPanel Anda:
 1. Pastikan folder `uploads/` memiliki permission **755** (atau **777** jika server memerlukan write access).
 2. Folder ini digunakan untuk menyimpan foto produk dan file log cadangan.
 
-### Langkah 7: Pastikan Versi PHP 8.2+
+### Langkah 7: Pastikan Versi PHP 8.0+
 1. Buka menu **MultiPHP Manager** atau **Select PHP Version** di cPanel.
-2. Pastikan domain Anda menggunakan **PHP 8.2** atau versi yang lebih tinggi.
+2. Pastikan domain Anda menggunakan **PHP 8.0** atau versi yang lebih tinggi.
 
 ### Langkah 8: Login Pertama Kali
 Buka website Anda melalui browser (`https://namadomain.com`):

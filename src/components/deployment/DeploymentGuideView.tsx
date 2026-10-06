@@ -110,7 +110,7 @@ class Database
         </div>
         <h2 className="text-xl sm:text-2xl font-black mt-1">Paket Hosting cPanel & Source Code PHP MySQL</h2>
         <p className="text-xs text-slate-300 mt-2 max-w-3xl leading-relaxed">
-          Aplikasi ini dirancang khusus untuk berjalan dengan performa tinggi pada hosting biasa (shared hosting / cPanel) dengan PHP 8.2+ dan MySQL / MariaDB tanpa memerlukan runtime server Node.js khusus di production!
+          Aplikasi ini dirancang khusus untuk berjalan dengan performa tinggi pada hosting biasa (shared hosting / cPanel) dengan PHP 8.0+ dan MySQL / MariaDB tanpa memerlukan runtime server Node.js khusus di production!
         </p>
       </div>
 
@@ -193,8 +193,8 @@ class Database
             },
             {
               step: 'Langkah 8',
-              title: 'Pastikan PHP Version 8.2+',
-              desc: 'Di menu cPanel "Select PHP Version" atau "MultiPHP Manager", pastikan versi PHP diset minimal PHP 8.2 dengan ekstensi pdo_mysql aktif.'
+              title: 'Pastikan PHP Version 8.0+',
+              desc: 'Di menu cPanel "Select PHP Version" atau "MultiPHP Manager", pastikan versi PHP diset minimal PHP 8.0 (atau lebih baru) dengan ekstensi pdo_mysql, json, mbstring, dan openssl aktif.'
             },
             {
               step: 'Langkah 9',

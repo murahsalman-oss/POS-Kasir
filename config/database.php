@@ -2,7 +2,7 @@
 /**
  * Konfigurasi Koneksi Database MySQL / MariaDB
  * Menggunakan PHP Data Objects (PDO) dengan Prepared Statements & Parameter Binding
- * Kompatibel dengan PHP 8.2+ dan cPanel Shared Hosting
+ * Kompatibel dengan PHP 8.0+ dan cPanel Shared Hosting
  */
 
 declare(strict_types=1);
