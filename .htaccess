@@ -1,0 +1,32 @@
+# =====================================================================
+# Apache Configuration (.htaccess) untuk POS Minimarket
+# Melindungi direktori sensitif, mematikan directory listing, dan routing
+# =====================================================================
+
+# Matikan Directory Browsing / Listing
+Options -Indexes
+
+# Lindungi file konfigurasi, database, backup, dan git dari akses publik langsung
+<FilesMatch "(\.(bak|config|sql|env|log|ini|sh)|database\.sql|config\.php)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Lindungi direktori database, config, dan backup
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^config/ - [F,L]
+    RewriteRule ^database/ - [F,L]
+    RewriteRule ^backups/ - [F,L]
+</IfModule>
+
+# Keamanan Header HTTP
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# Batasi ukuran file upload (10 Megabytes)
+LimitRequestBody 10485760

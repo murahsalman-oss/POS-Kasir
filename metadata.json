@@ -1,0 +1,6 @@
+{
+  "name": "POS Minimarket Pro - Sistem Kasir & Manajemen Toko",
+  "description": "Aplikasi POS (Point of Sale) Minimarket berbasis web lengkap dengan manajemen stok, kasir barcode, cetak struk thermal, laporan laba rugi, closing shift, dan paket deployment cPanel PHP MySQL.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
